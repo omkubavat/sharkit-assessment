@@ -19,7 +19,8 @@
   /* ------------------------------ config ------------------------------ */
 
   // CHANGE THIS to your Railway URL before deploying (no trailing slash).
-  var API_BASE = 'http://localhost:8000';
+  var API_BASE = 'sharkit-assessment-production.up.railway.app';
+  // var API_BASE = 'http://localhost:8000';
   var REQUEST_TIMEOUT_MS = 20000; // free hosting can take ~30s to wake, so be generous
 
   // Keep in sync with the backend validation and the README.
