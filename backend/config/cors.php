@@ -10,8 +10,9 @@ function applyCors(): void
     $origin  = rtrim($_SERVER['HTTP_ORIGIN'] ?? '', '/');
     $allowed = array_map(
         static fn (string $o): string => rtrim(trim($o), '/'),
-        explode(',', env('ALLOWED_ORIGINS', 'http://localhost:5500,http://127.0.0.1:5500,https://shark-it.netlify.app) ?? '')
+        explode(',', env('ALLOWED_ORIGINS', 'http://localhost:5500,http://127.0.0.1:5500,https://shark-it.netlify.app') ?? '')
     );
+
 
     header('Vary: Origin');
 
