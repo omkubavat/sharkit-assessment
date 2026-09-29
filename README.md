@@ -2,8 +2,7 @@
 
 A small full-stack marketplace where founders post funding asks — Equity, Loan or Grant — and anyone can browse the live feed and filter by type. Built as a practical assessment: a real frontend talking to a real backend with a persistent Postgres datastore, with a dark "glass" theme and a self-designed light mode.
 
-**Live demo:** `<netlify-url-here>`
-**API:** `<railway-url-here>`
+**Live demo:** https://shark-it.netlify.app/
 
 ---
 
